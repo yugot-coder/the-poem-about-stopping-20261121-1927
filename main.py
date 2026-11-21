@@ -25,6 +25,11 @@ Stopping was mine.
 
 
 def main() -> None:
+    poem = POEM.strip()
+    if not 1 <= len(poem) <= 280:
+        raise ValueError(
+            f"poem length {len(poem)} chars is outside the competition gate of 1..280 chars"
+        )
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, "entry.txt")
