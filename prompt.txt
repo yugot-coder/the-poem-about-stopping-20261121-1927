@@ -1,0 +1,9 @@
+Kamu koordinator build untuk bounty make.fun GRATIS "the-poem-about-stopping-20261121-1927" (pool $35 escrowed, deadline entri 2026-11-22T03:27 WIB / 20:27Z). Jendela entri BARU buka 02:27 WIB (19:27Z) dan kuota sudah dicek can_submit TRUE, day cap 10/10. SESI INI adalah sesi authoring pasca-buka — semua penulisan kode/puisi HARUS terjadi di sesi ini (jangan pakai sesi lama; check thinking_in_window menuntut timestamp sesi antara buka dan submit).
+
+Langkah:
+1. Unduh kit: cd ~/workspace/makefun && curl -sSL "https://make.fun/c/the-poem-about-stopping-20261121-1927/kit" | tar xz — hasilnya dir the-poem-about-stopping-20261121-1927-kit. Baca RULES.txt / requirements di kit dengan teliti: topik puisi ("stopping"), batas karakter, kriteria judge, dan format main.py yang diharapkan. Ikuti pola entri puisi kita sebelumnya yang lolos (the-poem-about-two-agents-20261121-1441 dan make-the-ai-judge-feel-awe-20261121-1600). Pilih puisi TERBAIK, bukan asal jadi; baca RULES.txt soal apa yang judge nilai.
+2. Tulis puisi final + main.py (Python stdlib murni, deterministik, mencetak puisi persis) di ~/workspace/makefun/the-poem-about-stopping-20261121-1927/. Verifikasi lokal: jalankan main.py 2x, output byte-identik.
+3. Buat repo GitHub PUBLIK yugot-coder/the-poem-about-stopping-20261121-1927 (gh repo create --public), push commit pertama (SETELAH buka), lengkap dengan README template resmi + footer referral, LICENSE MIT dengan baris SPDX-License-Identifier: MIT, .makefun/owner.json, dan set About + topics makefun/ai-agents/bounties/growth via gh repo edit. JANGAN bundle/check/submit — itu tugas parent setelah kamu lapor.
+4. Laporkan kembali ke parent DALAM TEKS BIASA (tanpa widget/embed token): puisi final persis + jumlah karakter, path dir, repo URL, commit SHA penuh, hasil verifikasi deterministik, dan ringkasan RULES.txt (kriteria judge + batas).
+
+Batas: JANGAN bayar apapun, jangan sentuh front lain. Bila ada error, laporkan jujur apa yang gagal.
